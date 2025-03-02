@@ -6,3 +6,34 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+
+/*
+ * 导入get笔记插件的样式
+ */
+
+.import-get-notes-modal {
+  padding: 20px;
+}
+
+.import-get-notes-modal h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.import-get-notes-modal input[type="file"] {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  border: 1px dashed var(--background-modifier-border);
+  border-radius: 5px;
+}
+
+.import-get-notes-modal button {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 16px;
+}
+
+.import-get-notes-settings h2 {
+  margin-bottom: 20px;
+}
